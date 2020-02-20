@@ -1,0 +1,7 @@
+helloDocker:
+  image: hello-docker
+  ports:
+    - "3000:3000"
+  environment:
+    - MY_FIRST_NAME="Ben"
+    - MY_LAST_NAME="Knight"
